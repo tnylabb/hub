@@ -152,11 +152,11 @@
   
     .navbar__menu.active {
       background: #0a0a0a;
-      top: 100%;
+      top: 99%;
       opacity: 1;
       transition: all 0.4s ease;
       z-index: 998;
-      height: 40vh;
+      height: 60vh;
       font-size: 1.4rem;
     }
   
@@ -178,22 +178,23 @@
   
     .navbar__links {
       text-align: center;
-      padding: 1rem;
+      padding: 0rem;
       width: 100%;
       display: table;
     }
   
     .navbar__btn {
-      padding-bottom: 10rem;
+      padding-bottom: 2rem;
     }
   
     .button {
       display: flex;
       justify-content: center;
       align-items: center;
-      width: 80%;
-      height: 80px;
+      width: 50%;
+      height: 50px;
       margin: 0;
+      font-size: 1.4rem;
     }
   
     #mobile-menu {
