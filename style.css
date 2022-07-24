@@ -50,6 +50,9 @@
     font-family: sf pro display,sans-serif;
     font-weight: bold;
     transition: 0.3s;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
   }
   
   .navbar__menu {
@@ -149,9 +152,9 @@
     }
   
     #navbar__logo {
-      margin-left: 40px;
+        margin-left: 30px;
     }
-  
+
     .navbar__toggle .bar {
       width: 25px;
       height: 3px;
